@@ -4,6 +4,6 @@ desc: 将 g|google.com 重定向回 google.com/ncr
 http:
   mitm:
     - g.com
-    - "*.google.com/ncr"
+    - "*.google.com"
   rewrite:
     - ^https?:\/\/(www.)?(g|google)\.com https://www.google.com/ncr 302
