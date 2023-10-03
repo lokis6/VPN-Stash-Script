@@ -6,4 +6,4 @@ http:
     - g.com
     - "*.google.com"
   rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.com https://www.google.com/ncr 302
+    - ^https?:\/\/(www\.)?google\.com\/\?client=safari https://www.google.com/ncr 302
